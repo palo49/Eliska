@@ -609,26 +609,27 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date(2026, 5, 26); 
-
-    // default example
     simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
+        year: 2026,
+        month: 6,
+        day: 26,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+        enableUtc: false
     });
 
-    //jQuery example
     $('#simply-countdown-losange').simplyCountdown({
         year: 2026,
-	    month: 6,
-	    day: 26,
-	    hours: 0,
-	    minutes: 0,
-	    seconds: 0,
-	    enableUtc: false
+        month: 6,
+        day: 26,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+        enableUtc: false
     });
 </script>
+
 
 	</body>
 </html>
