@@ -126,7 +126,7 @@
                     hours: 'hodiny',
                     minutes: 'minuty',
                     seconds: 'sekundy',
-                    pluralLetter: 's'
+                    pluralLetter: ''
                 },
                 plural: true,
                 inline: false,
